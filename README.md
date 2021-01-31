@@ -6,22 +6,34 @@ Ever since the pandemic, people’s lives have been significantly impacted in ma
 When the program detects a keyword from the keyword list, which contains the following: lonely, miss you, sad, depressed, friend, start, buddy, cry, bored, a virtual friend will pop up on the desktop
 
 ### How we built it
-We used Python, PyQt5, Google cloud's speech to text api, and Paint Tool SAI (creating the virtual friend)
+We used Visual Studio Code to program with Python, PyQt5, and Google cloud's speech to text api, and Paint Tool SAI to create the virtual friend)
 
 
 ### Challenges we ran into
 - Not familiar with Python and PyQt5
 - First time utilizing an API
 - Unable to install PyQt5 correctly
+- Different coding background among teammates: specific timeframe limited us from combinning our functions on character dynamics coded in Java with other functions coded in Python
 
 ### Accomplishments that we're proud of
 - Implementing the speech recognition feature in our program
 - Successfully installed PYQT5 
 
-### What we learned
-- Python
-- PyQt5
-- How to utilize an outside source into our code (API)
+### Usage
+- Install Python 3.9.1
+- Install the dependencies with the command
+```bash
+pip install PyQt5
+```
+- Run the following command line
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
+```
+- Run the program with following command
+```bash
+python DesktopPet.py
+```
+The desktop buddy will come out when they notice you are having a bad time or just simply need someone from what you say
 
 ### What's next for DesktopBuddy
 - Allow the users to have conversations with the friend
