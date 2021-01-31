@@ -16,6 +16,5 @@ ACTION_DISTRIBUTION = [['1', '2', '3'],
 					   ['38', '39', '40', '41'],
 					   ['42', '43', '44', '45', '46']]
 PET_ACTIONS_MAP = {'pet_1': ACTION_DISTRIBUTION}
-#for i in range(2, 65):
-i=48
-PET_ACTIONS_MAP.update({'pet_%s' % 48: ACTION_DISTRIBUTION})
+for i in range(2, 65):
+   PET_ACTIONS_MAP.update({'pet_%s' % i: ACTION_DISTRIBUTION})
