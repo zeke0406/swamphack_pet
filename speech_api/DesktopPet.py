@@ -350,11 +350,10 @@ def main():
     mic_manager = ResumableMicrophoneStream(SAMPLE_RATE, CHUNK_SIZE)
     print(mic_manager.chunk_size)
     sys.stdout.write(YELLOW)
-    sys.stdout.write('\nListening...\n Let me know if you need a buddy.\n')
+    sys.stdout.write('\n\n\n\nListening...\n Let me know if you need a buddy.\n')
     sys.stdout.write("I'll always be here for you. Love you \n")
-    sys.stdout.write("End (ms)       Transcript Results/Status\n")
-    sys.stdout.write("  \n")
-    sys.stdout.write("\u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665   \n")
+    sys.stdout.write("End (ms)       Transcript Results/Status\n\n")
+    sys.stdout.write("\u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \u2665 \n\n")
     
 
     with mic_manager as stream:
